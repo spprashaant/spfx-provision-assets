@@ -1,6 +1,6 @@
 ## provision-assets
 
-For detailed information on the code please see http://www.thesharepointguide.com - SharePoint Framework Provision Assets
+For detailed information on the code please see http://www.thesharepointguide.com/sharepoint-framework-provision-assets/ - SharePoint Framework Provision Assets
 
 ### Building the code
 
