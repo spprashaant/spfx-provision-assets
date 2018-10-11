@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f1fdf984-a58a-4be0-b81b-6a3191fc5fec}"
+       Name="NumberOfPages"
+       DisplayName="Number Of Pages"
+       Type="Text"
+       Required="FALSE"
+       Group="SPG">
+  </Field>
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100B927FAD0B4C1421BB7BF128AEE37642A" Name="BookCT" Group="SPG" Description="Book Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{f1fdf984-a58a-4be0-b81b-6a3191fc5fec}" DisplayName="Number Of Pages" Required="FALSE" Name="NumberOfPages" />
+    </FieldRefs>
+  </ContentType>
+
+  <ListInstance CustomSchema="schema.xml" FeatureId="00bfea71-de22-43b2-a848-c05709900100" Title="Books" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Books" Description="A List of Books"></ListInstance>
+</Elements>

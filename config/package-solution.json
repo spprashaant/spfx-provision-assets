@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "provision-assets-client-side-solution",
+    "id": "CFB58703-92FD-4FE6-A045-7CAD8728A5AD",
+    "version": "1.1.0.0",
+    "features": [
+      {
+        "title": "Provisioning SharePoint assets",
+        "description": "Provisioning SharePoint assets",
+        "id": "0FDE125A-CC04-40AE-829A-86027262D77B",
+        "version": "1.0.0.0",
+        "assets": {          
+          "elementManifests": [  
+            "elements.xml"
+          ],
+          "elementFiles": [
+            "Schema.xml"
+          ]
+        }  
+      }
+    ],
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/provision-assets.sppkg"
+  }
+}
